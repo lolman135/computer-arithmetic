@@ -3,7 +3,10 @@
 ## Привіт
 
 Невеличка інструкція по локальному запуску.<br>Для запуску вам потрібен докер. 
-Завантажити його можна за посиланням: [тиць](https://docs.docker.com/engine/install/).<br>
+Завантажити його можна за посиланнями: 
+-  [Windows](https://docs.docker.com/desktop/setup/install/windows-install/);
+-  [Linux](https://docs.docker.com/desktop/setup/install/linux/) (Це Docker Desktop, тому за посиланням додаткове пояснення різниці між Docker Desktop та Docker Engine, який іноді краще встановити)
+-  [MacOs](https://docs.docker.com/desktop/setup/install/mac-install/)
 
 Перейдіть до кореневого каталогу з файлом ```compose.yaml``` та виконайте команду:
 ```bash
