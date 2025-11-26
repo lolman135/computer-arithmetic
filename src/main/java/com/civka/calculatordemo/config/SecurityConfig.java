@@ -33,8 +33,8 @@ public class SecurityConfig {
                         .requestMatchers("/admin/**").hasRole("ADMIN")
                         .requestMatchers("/maintenance/**").hasRole("ADMIN")
                         .requestMatchers("/feedback/answer/**").hasRole("ADMIN")
-                        .requestMatchers("/feedback/**").authenticated()
-                        .requestMatchers("/afdks/**").authenticated()
+                        .requestMatchers("/feedback/**").permitAll()
+                        .requestMatchers("/afdks/**").permitAll()
                         .requestMatchers("/css/**", "/img/**", "/font/**", "/scripts/**").permitAll()
                         .anyRequest().permitAll()
         ).formLogin(login ->
